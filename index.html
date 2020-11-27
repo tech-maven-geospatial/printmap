@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <script src="https://kit.fontawesome.com/25a4c57804.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Print Map</title>
+  </head>
+  <body>
+    <header id="showcase">
+      <div class="container-fluid m-0 p-0 bg-light">
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <a class="navbar-brand font-weight-bolder" href="./index.html">
+            <img src="./img/logo.png" height="40" width="160" alt="logo" />
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-target="#mynav"
+            data-toggle="collapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mynav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="./index.html" class="nav-link text-dark">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="./index.html"
+                  class="nav-link dropdown-toggle text-dark"
+                  href="#"
+                  id="navbarDropdown"
+                  data-toggle="dropdown"
+                  >Tech Maven Geospatial</a
+                >
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://techmaven.net/"
+                    >Home</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="https://portfolio.techmaven.net/"
+                    >Portfolio</a
+                  >
+                  <a class="dropdown-item" href="https://techmaven.net/contact/"
+                    >Contact</a
+                  >
+                  <a class="dropdown-item" href="http://support.techmaven.net/"
+                    >Support</a
+                  >
+                  <a class="dropdown-item" href="http://blog.techmaven.net/"
+                    >Blog</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="landscape text-center shadow-lg">
+        <div class="overlay">
+          <div class="landscape-content" style="height: 30vh"></div>
+            <h1 class="d-flex justify-content-center font-weight-bolder">PRINT MAP APP</h1>
+            <p class="d-flex justify-content-center font-weight-bold text-dark">Export High Quality Maps from vector tile basemaps.</p>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.tmg.printmap"
+            >
+              <img src="./img/googleplaystore_200x59.png" alt="google-store" />
+            </a>
+            <a
+              href="https://apps.apple.com/us/app/print-map/id1489608021?app=itunes&ign-mpt=uo%3D4%20"
+            >
+              <img src="./img/apple_app_store_200_59.png" alt="apple-store" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container" id="feature">
+      <div class="row animate__animated animate__flipInX">
+        <div
+          class="col-lg-3 col-md-6 shadow-lg bg-light text-dark p-4 text-center "
+        >
+          <h5 class="p-2">Rapidly Build Maps</h5>
+          <span class="font-weight-lighter p-2">
+            Stylesheet Vector Tile Basemaps and satellite Imagery from MapBox &
+            OpenMapTiles</span
+          >
+        </div>
+        <div
+          class="col-lg-3 col-md-6 shadow-lg bg-light text-info p-4 text-center"
+        >
+          <h5 class="p-2">Export High Quality Maps</h5>
+          <span class="font-weight-lighter p-2">
+            Easily export high quality maps with specified output
+            (Size,Format,DPI).</span
+          >
+        </div>
+        <div
+          class="col-lg-3 col-md-6 shadow-lg bg-light text-dark p-4 text-center"
+        >
+          <h5 class="p-2">Share Maps</h5>
+          <span class="font-weight-lighter p-2">
+            Quickly share exported maps with native Ios and Android means</span
+          >
+        </div>
+        <div
+          class="col-lg-3 col-md-6 shadow-lg bg-light text-info p-4 text-center"
+        >
+          <h5 class="p-2">Search</h5>
+          <span class="font-weight-lighter p-2">
+            Use MapBox API for Places and Geocoding</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 text-center py-3">
+          <img src="./img/landscape.PNG" class="img-fluid shadow" />
+        </div>
+        <div
+          class="col-md-6 col-sm-12 col-12 p-5 shadow bg-light mt-5"
+          style="height: 370px; width: 300px; border-left: 5px solid #19b1c5"
+        >
+          <h3 class="d-flex flex-column justify-content-center p-2">
+            Rapidly Build Maps
+          </h3>
+          <span
+            class="text-secondary d-flex flex-column justify-content-center p-2"
+          >
+            Select Stylesheets of vector tile basemaps and staellite imagery
+            from MapBox and Open MapTiles/Tile Hosting <br />Create an export
+            for use in offline mapping app georeferenced PNG or high DPI PDF
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5">
+      <div class="row">
+        <div
+          class="col-md-6 col-sm-12 col-12  p-5 shadow bg-light mt-5"
+          style="height: 300px; width: 300px; border-right: 5px solid #19b1c5"
+        >
+          <h3 class="d-flex flex-column justify-content-center p-2">
+            Easily Export High Quality Maps
+          </h3>
+          <span
+            class="text-info d-flex flex-column justify-content-center p-2 font-weight-bold"
+          >
+            Select Output
+          </span>
+          <span
+            class="text-secondary d-flex flex-column justify-content-center"
+          >
+            <ul class="text-info">
+              <li>Size</li>
+              <li>Format</li>
+              <li>DPI</li>
+            </ul>
+          </span>
+        </div>
+        <div class="col-md-6 col-sm-12 text-center py-4">
+          <img src="./img/landscape.PNG" class="img-fluid shadow" />
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid bg-light shadow">
+      <div class="container">
+        <h1 style="border-left: 5px solid #19b1c5;" class="p-3">Quickly Share Exported Maps</h1>
+        <p class="lead pl-4 text-info font-weight-bold">Share with native iOS and Android Means</p>
+        <ul>
+          <li>PNG with or without georeferencing sidcar files (PGW and PRJ)</li>
+          <li>PDF</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col text-center bg-dark py-3 text-white">
+          Copyright &copy;
+          <a href="./index.html" style="color: #edf2f4">Print Map Mobile App</a>
+          | Developed by
+          <a href="https://techmaven.net/" style="color: #edf2f4"
+            >Tech Maven Geospatial, LLC</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

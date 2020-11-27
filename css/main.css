@@ -1,0 +1,27 @@
+#showcase {
+  height: 100vh;
+}
+
+.landscape {
+  display: table;
+  height: 90vh;
+  width: 100%;
+  background-image: url(../img/tim-trad-r2NBj6GAJzw-unsplash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.overlay {
+  height: 100vh;
+  background: rgba(247, 253, 255, 0.7);
+}
+.landing-content {
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+#feature {
+  position: relative;
+  top: -70px;
+}
